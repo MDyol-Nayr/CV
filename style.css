@@ -8,12 +8,12 @@
 :root {
 	--windowWidth: 1000px;
 	--bgcBody: #333;
-	--fontColorGray: #555;
-	--fontColorH: #0a5ea3;
+	--fontColorGray: #6EACDA;
+	--fontColorH: #03346E;
 	/* --fontColorH: #269dff; */
 	--backgroundColor1: royalblue;
 	--backgroundColor2: purple;
-	--wrapperColor: rgb(151, 184, 178);
+	--wrapperColor: #021526;
 	--borderColor: white;
 }
 .active {
