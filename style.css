@@ -8,8 +8,8 @@
 :root {
 	--windowWidth: 1000px;
 	--bgcBody: #333;
-	--fontColorGray: #6EACDA;
-	--fontColorH: #03346E;
+	--fontColorGray: #009FBD;
+	--fontColorH: #F6F5F5;
 	--backgroundColor1: royalblue;
 	--backgroundColor2: purple;
 	--wrapperColor: #021526;
@@ -56,7 +56,7 @@ h3 {
 	margin-bottom: 20px;
 }
 h4 {
-	font-size: 1.125rem; /* 18px */
+	font-size: 2rem; /* 18px */
 	margin-bottom: 15px;
 }
 
@@ -233,7 +233,7 @@ h4 {
 }
 
 .about .aboutMe p {
-	font-size: 1rem; /* 16px */
+	font-size: 1.5rem; /* 16px */
 	line-height: 160%;
 }
 
@@ -246,7 +246,7 @@ h4 {
 }
 
 .about .details p {
-	font-size: 1rem; /* 16px */
+	font-size: 2rem; /* 16px */
 	padding-top: 10px;
 }
 
@@ -288,10 +288,10 @@ h4 {
 	padding: 10px;
 }
 .school .schoolyears {
-	font-size: 1rem; /* 16px */
+	font-size: 2rem; /* 16px */
 }
 .schooldescription .coursedescription {
-	font-size: 1rem; /* 16px */
+	font-size: 1.5rem; /* 16px */
 	line-height: 150%;
 }
 
@@ -531,4 +531,37 @@ h4 {
 	.footer div h2 {
 		font-size: 0.875rem; /* 14px */
 	}
+}
+.picture {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text (including the button) */
+}
+
+.picture img {
+    max-width: 45%; /* Responsive image */
+    height: auto;    /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between image and button */
+}
+
+.hire-me-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hire-me-button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+.experiences {
+    font-size: 1.3rem; 
 }
